@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=+w=0x2c17-ee4o=u5_sg!s(zvr^f7gf0-p8^-z+f8mr^nh=_@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["https://taxi-income-1.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["*","https://taxi-income-1.onrender.com", "localhost"]
 
 
 # Application definition
